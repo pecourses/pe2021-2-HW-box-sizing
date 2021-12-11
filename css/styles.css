@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.content-wrapper{
+  width: 880px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.header-content-wrapper{
+  height: 450px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.cards-list{
+  list-style: none;
+}
+
+li {
+  width: 30%;
+  height: 200px;
+  border: 2px solid green;
+  display: inline-block;
+}
